@@ -1,4 +1,4 @@
-# my-alacritty-config
+# MyAlacrittyConfig
 
 Minha configuração personalizada para o terminal **Alacritty**.
 
