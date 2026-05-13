@@ -11,3 +11,7 @@ Minha configuração personalizada para o terminal **Alacritty**.
 ## 📂 Localização do Arquivo
 O arquivo de configuração deve residir em:
 `~/.config/alacritty/alacritty.toml`
+
+## Fonte
+Instalação do pacote de fontes do JetBrain via APT no Debian
+`sudo apt install fonts-jetbrains-mono`
