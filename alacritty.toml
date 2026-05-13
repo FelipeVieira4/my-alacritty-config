@@ -1,0 +1,35 @@
+# Configuração Alacritty
+
+[window]
+dimensions = { columns = 100, lines = 25 }
+padding = { x = 2, y = 2 }
+opacity = 0.95
+title = "Alacritty"
+
+# Classe para o i3 (útil para regras de assign)
+class = { instance = "Alacritty", general = "Alacritty" }
+
+[font]
+normal.family = "JetBrains Mono"
+size = 12.0
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+
+[colors.primary]
+background = "#1a1b26" # Um tom de azul escuro (estilo Tokyo Night)
+foreground = "#a9b1d6"
+
+[colors.normal]
+black   = "#32344a"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+#blue    = "#7aa2f7"
+magenta = "#ad8ee6"
+cyan    = "#7dcfff"
+white   = "#a9b1d6"
+
+[scrolling]
+history = 10000
+multiplier = 3
